@@ -1,0 +1,49 @@
+.navigation{
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    font-family: 'Raleway', sans-serif;
+}
+
+.link{
+    padding: 1vw;
+    margin: 3vw;
+    /* background-color: aqua; */
+}
+
+#address {
+    width: 83vw;
+    /* background-color: blueviolet; */
+    height: 7vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 2vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.mp4-download{
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3vw;
+    margin: 2vw;
+}
+
+.blue{
+    color: white;
+    background: rgb(67, 67, 219);
+    font-family: 'Poppins', sans-serif;
+}
+
+#submit-button{
+    margin: 0vw 1vw;
+    padding: 1vw 1vw;
+    border: 2px solid black;
+    border-radius: 11px;
+    font-size: 2vw;
+}

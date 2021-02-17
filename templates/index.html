@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}" , type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Downloader</title>
+</head>
+
+<body>
+    <nav class="navigation">
+        <h1>Youtube Downloader</h1>
+    </nav>
+
+    <div class="link">
+        <form action="/downloading" method="POST">
+            <input type="text" name="link" id="address" placeholder="       Paste video link here">
+            
+
+
+    </div>
+
+    <div class="mp4-download">
+        <input type="submit" id="submit-button" value="MP4 DOWNLOAD" class="mp4 blue">
+    </div>
+    </form>
+</body>
+
+</html>
